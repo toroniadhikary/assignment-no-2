@@ -1,22 +1,16 @@
-@media  screen and (max-width:676px){
+@media  screen and (max-width:576px){
     .top-section{
-        width: 100%;
+      
         height: 847px;
-        border: 2px solid seagreen
+      
     }
     #list-item{
-        position: ;
         visibility: hidden;
     }
     .hamburger{
         position: absolute;
         margin-top: 40px;
-        margin-left: 80px;
-        visibility: visible;
-        
-    }
-    .hamburger img{
-
+        visibility: visible;  
     }
     #fitness{
         margin-left: 30px;
