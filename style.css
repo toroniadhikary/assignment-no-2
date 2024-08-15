@@ -7,9 +7,9 @@
 /* ------------------------banner section start----------------- */
 .top-section{
     width: 100%;
-    height: 500px;
+    height: 520px;
     margin: 0 auto;
-    background: linear-gradient(180.00deg, rgba(3, 3, 3, 0.932),rgba(52, 197, 125, 0));
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0.932),rgba(0, 0, 0, 0.815));
 }
 #fitness{
     margin-top: 30px;
@@ -26,6 +26,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: px;
+   
 }
 #list-item{
     display: flex;
@@ -39,7 +40,7 @@
 }
 .list-item,a{
     padding:  4px 7px;
-    font-size: 13px;
+    font-size: 12px;
     color: #fff;
 
 }
@@ -58,11 +59,14 @@
     width: 100%;
     height: 435px;
     align-items: center;
+
+ 
 }
 .banner-text{
     width: 50%;
-    height: 50%;
-    margin-left:150px;
+    height: 100%;
+    margin-left:120px;
+  
 
 }
 #bold-line{
@@ -76,34 +80,41 @@
 #text{
     margin:20px 0;
     font-size: 14px;
+    color: #fff;
 }
 #join-btn{
     background-color:rgb(230, 83, 60);
     color: rgb(255, 255, 255);
     width: 150px;
     padding: 15px;
-    border-radius: 10px;
-    border:1px solid #fff;
+    border: none;
+    border-radius: 30px;
+  
 
 }
 #download-btn{
     padding: 15px;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 30px;
     border:1px solid #fff;
+    background: #201f1f;
+    color: #fff;
+    margin-left: 20px;
 }
 .banner-image{
     width: 50%;
-    height: 50%;
+    height: 100%;
    
     
     
 }
-.banner-image,img{
+.banner-image img{
     height: 100%;
     margin-left: 130px;
     padding: 0 30px;
+ 
 }
+/* ------------------------banner items end---------------------------- */
 /* --------------pop up secrtion start------------ */
 #pop-up{
     position: relative;
@@ -142,7 +153,83 @@
 /* --------------pop up secrtion end-------------- */
 
 
+/*-- -------this line of code habbit section start---------- --*/
+.habbit-section{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+.habbit-container{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+.habbit-text{
+    text-align: center;
+    margin-top: 50px;
+    color: #fff ;
+}
+.habbit-text h1{
+    font-size: 43px;
+}
+.habbit-text p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.indor-workout-pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.pic-1 img{
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+.pic-2 img{
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+.pic-3 img{
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+.pic-4 img{
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+.pic-1,.pic-2,.pic-3,.pic-4 h2 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+.pic-1,.pic-2,.pic-3,.pic-4 p{
+    color: #fff;
+}
+.outdor-workout{
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+    height: 300px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(34, 34, 34, 0.938);
+    
+}
+.outdor-text h1{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.outdor-text p{
+    margin-bottom: 20px;
+}
+.outdor-image {
+    
+
+}
 
 
-
-/* ------------------------banner items end---------------------------- */
+/*-- -------this line of code habbit section end---------- --*/
