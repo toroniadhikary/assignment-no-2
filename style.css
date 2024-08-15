@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ------------------------banner section start----------------- */
+.top-section{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgba(3, 3, 3, 0.932),rgba(52, 197, 125, 0));
+}
+#fitness{
+    margin-top: 30px;
+    color:rgb(230, 83, 60); 
+    font-size: 30px;
+    font-family: "Kaushan Script", cursive;
+}
+.hamburger{
+    position: absolute;
+    visibility: hidden;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: px;
+}
+#list-item{
+    display: flex;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    margin: 30px;
+}
+.list-item{
+    margin-left: 40px;
+    
+}
+.list-item,a{
+    padding:  4px 7px;
+    font-size: 13px;
+    color: #fff;
+
+}
+#home-button{
+    background: rgb(230, 83, 60);
+    width: 60px;
+    height: 15px;
+    border-radius: 18px;
+    text-align: center;
+}
+/* ----------------------banner section end------------------------ */
+
+/* -------------------------banner items start-------------------------- */
+.banner-item{
+    display: flex;
+    width: 100%;
+    height: 435px;
+    align-items: center;
+}
+.banner-text{
+    width: 50%;
+    height: 50%;
+    margin-left:150px;
+
+}
+#bold-line{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+#special{
+    font-family: "Great Vibes", cursive;
+      }
+      
+#text{
+    margin:20px 0;
+    font-size: 14px;
+}
+#join-btn{
+    background-color:rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    border:1px solid #fff;
+
+}
+#download-btn{
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    border:1px solid #fff;
+}
+.banner-image{
+    width: 50%;
+    height: 50%;
+   
+    
+    
+}
+.banner-image,img{
+    height: 100%;
+    margin-left: 130px;
+    padding: 0 30px;
+}
+/* --------------pop up secrtion start------------ */
+#pop-up{
+    position: relative;
+}
+.pop-up1{
+    position: absolute;
+    background: rgba(39, 38, 38, 0.459);
+    margin: -300px 280px;
+    padding: 10px;
+    color: #fff;
+    width: 150px;
+    border-radius: 15px;
+
+}
+.pop-up2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: rgba(39, 38, 38, 0.459);
+    margin: -100px 100px;
+    color: #fff;
+    padding: 10px;
+    color: #fff;
+    width: 150px;
+    border-radius: 15px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+    margin-right: 10px;
+
+}
+
+/* --------------pop up secrtion end-------------- */
+
+
+
+
+
+/* ------------------------banner items end---------------------------- */
