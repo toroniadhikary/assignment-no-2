@@ -85,5 +85,144 @@
     width:250px;
     height: 45px;
 }
+.outdor-image img{
+    border-radius: 10px;
+    width: 200px;
+    height: 120px;
+    object-fit: none;
+    object-position: 64% 25%;
+}
 /* -----------------this line of code habbit section end-------------- */
+
+
+/*-- ------------this line of code training section start here----------- --*/
+.training-section{
+    width: 100%;
+    height: 470px;
+    background-color:black;
+}
+.training-text h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.first-grid{
+    display: grid;
+    grid-template-columns: 170px 130px ;
+
+}
+.second-grid{
+    display: grid;
+    grid-template-columns: 130px 170px;
+}
+ .image-1 img{
+    width: 170px;
+    height: 100%;
+    object-fit: cover;
+
+}
+.image-2 img{
+    width: 130px;
+    height: 100%;
+    object-fit: cover;
+}
+.image-3 img{
+    width: 150px;
+    height: 100%;
+    visibility: hidden;
+    position: absolute;
+}
+.image-4 img{
+    width: 130px;
+    height: 100%;
+}
+.image-5 img{
+    width: 170px;
+    height: 100%;
+}
+.image-6 img{
+    width: 150px;
+    height: 100%;
+    visibility: hidden;
+    position: absolute;
+}
+/*-- ------------this line of code training section end here----------- --*/
+
+.all-trainer{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
+    align-items: center;
+    height: 300px;
+}
+
+/* -------------- this line of code bmi calculator chart start---------------- */
+.bmi-calculator-container-chart{
+    display: flex;
+    flex-direction: column;
+}
+.bmi-chart h1{
+    margin-left: 35px;
+}
+table,th,td{
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+    color: #8d8282;
+}
+.bmi-calculate{
+    margin: auto;
+
+}
+.bmi-input-tag input{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: #443d3d;
+    border: none;
+    
+}
+#selector{
+    width: 270px;
+}
+.bmi-calculate h1{
+    margin: 30px;
+
+}
+.bmi-calculate p{
+    margin: 30px;
+    
+}
+
+
+
+
+/* -------------- this line of code bmi calculator chart end---------------- */
+
+
+/* -- --------------this line of code meet my team start------------ -- */
+
+/* - --------------this line of code meet my team end------------ -- */
+
+
+/* -----------this line of code footer start------------- */
+.footer-section{
+    width: 100%;
+    background-color: #201f1f;
+    height: 900px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.border-line{
+    border-top: 1px solid rgb(88, 84, 84);
+    width: 300px;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
 }

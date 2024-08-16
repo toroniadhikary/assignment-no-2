@@ -156,18 +156,23 @@
 /*-- -------this line of code habbit section start---------- --*/
 .habbit-section{
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-color: black;
 }
 .habbit-container{
     width: 80%;
     height: 600px;
     margin: 0 auto;
+    border: transparent 1px solid;
+  
+
+
 }
 .habbit-text{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     color: #fff ;
+   
 }
 .habbit-text h1{
     font-size: 43px;
@@ -216,6 +221,7 @@
     justify-content: space-around;
     align-items: center;
     background: rgba(34, 34, 34, 0.938);
+
     
 }
 .outdor-text h1{
@@ -226,10 +232,229 @@
 .outdor-text p{
     margin-bottom: 20px;
 }
-.outdor-image {
+.outdor-image img{
+    border-radius: 10px;
+    width: 350px;
+    height: 230px;
+    object-fit: none;
+    object-position: 69% 29%;
     
-
+    
 }
 
 
 /*-- -------this line of code habbit section end---------- --*/
+
+
+/*-- ------------this line of code training section start here----------- --*/
+
+.training-section{
+    width: 100%;
+    height: 900px;
+    background-color:black;
+}
+.training-container{
+    margin: 0 auto;
+    width: 80%;
+}
+.training-text{
+    color: white;
+    margin-bottom: 40px;
+    
+}
+.training-text h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    
+}
+.training-image{
+    width: 100%;
+    height: 90%;
+
+    
+
+}
+.first-grid{
+    display: grid;
+    grid-template-columns: 300px 550px 400px;
+
+}
+.second-grid{
+    display: grid;
+    grid-template-columns: 550px 300px 400px;
+}
+ .image-1 img{
+    width: 300px;
+    height: 100%;
+
+}
+.image-2 img{
+    width: 550px;
+    height: 100%;
+}
+.image-3 img{
+    width: 400px;
+    height: 100%;
+}
+.image-4 img{
+    width: 550px;
+    height: 100%;
+}
+.image-5 img{
+    width: 350px;
+    height: 100%;
+}
+.image-6 img{
+    width: 400px;
+    height: 100%;
+} 
+
+/*-- ------------this line of code training section end here----------- --*/
+
+/* ------------this line of code training section start here------------- */
+.bmi-calculator-section{
+    width: 100%;
+    height: 160px;
+    background-color: black;
+
+} 
+.bmi-calculator-container{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+.bmi-calculator-container h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.bmi-calculator-container p{
+    font-size: 13px;
+    margin-bottom:20px;
+}
+
+/* ------------this line of code training section end here---------- */
+
+/* ------------- this line of code bmi calculator chart start---------------- */
+.bmi-calculator-container-chart{
+    display: flex;
+    justify-content: space-around;
+    background-color: #201f1f;
+}
+.bmi-chart{
+    margin-top: 50px;
+}
+.bmi-chart h1{
+    margin-bottom: 30px;
+}
+table,th,td{
+width: 400px;
+font-size: 20px;
+color: #8d8282;
+padding: 15px;
+border: 1px solid rgb(170, 158, 158);
+border-collapse: collapse;
+}
+.bmi-calculate{
+    margin-top: 50px;
+}
+.bmi-calculate h1{
+    margin-bottom: 20px;
+
+}
+.bmi-calculate p{
+    margin-bottom: 20px;
+    
+}
+.bmi-input-tag input{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 200px;
+    background-color: #443d3d;
+    border: none;
+    
+}
+#selector{
+    width: 470px;
+}
+.bmi-btn{
+    margin: 10px;
+}
+
+/* -------------- this line of code bmi calculator chart end---------------- */
+
+/* -- --------------this line of code meet my team start------------ -- */
+.our-team-section{
+    width: 100%;
+    background-color: black;
+    height: 700px;
+    margin: 0 auto;
+}
+.our-team-text{
+    color: white;
+    text-align: center;
+}
+
+.our-team-container{
+    width: 80%;
+    margin: 0px auto;
+    height: 500px;
+   
+}
+.all-trainer{
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.all-trainer img{
+    width: 50%;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+/* - --------------this line of code meet my team end------------ -- */
+
+/* -----------this line of code footer start------------- */
+.footer-section{
+    width: 100%;
+    background-color: #201f1f;
+    height: 400px;
+
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#footer-fitness{
+    color:rgb(230, 83, 60); 
+}
+footer h1{
+    margin-top:60px;
+    font-size: 50px;
+    color: white;
+}
+footer p{
+    margin-top: 20px;
+    color: rgb(134, 136, 138);
+}
+footer h5{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #7a7777;
+    
+}
+.border-line{
+    border-top: 1px solid gray;
+    width: 700px;
+    border-radius: 10px;
+    margin: 50px auto;
+    
+}
+.copy-right{
+    text-align: center;
+}
